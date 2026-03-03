@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit these
+.env
+
+# Original HEIC files (already converted to JPG)
+images/*.heic
+
+# Dev/utility scripts
+convert-heic.js
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.idea/
+.vscode/
